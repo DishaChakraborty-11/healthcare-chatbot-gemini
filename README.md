@@ -1,29 +1,29 @@
-# healthcare-chatbot-gemini
+# 🩺 Healthcare Chatbot Interface (React + TypeScript)
 
-A healthcare chatbot interface using React with TypeScript, Tailwind CSS, and Shadcn UI components. The chatbot will simulate healthcare responses without making actual API calls.
+A clean, responsive, and professional healthcare-themed chatbot UI built with **React**, **TypeScript**, and **Shadcn UI**. This component simulates interactions with a healthcare assistant using predefined message patterns — no backend or API needed.
 
-This healthcare chatbot component includes:
+---
 
-Chat Interface:
+## 🛠️ Tech Stack
 
-Clean card-based layout with header, message area, and input footer
-Distinct styling for user messages (blue) and bot messages (gray)
-Auto-scrolling to newest messages
-Functionality:
+- ⚛️ React + TypeScript  
+- 🎨 Tailwind CSS + Shadcn UI  
+- 💬 Lucide React Icons  
+- 📱 Responsive Design (Mobile + Desktop)
 
-Message state management with timestamps
-Input handling with Enter key support
-Simulated AI responses from a predefined set of healthcare-related messages
-Responsive design that works on mobile and desktop
-UI Components:
+---
 
-Shadcn UI components (Card, Input, Button)
-Lucide React icon for the send button
-Custom health shield icon in the header
-Features:
+## ✨ Features
 
-Timestamps on messages
-Disabled send button when input is empty
-Smooth scrolling to new messages
-Clean, healthcare-themed color scheme
-The component is self-contained and doesn't require any external API calls. The bot responses are randomized from a set of predefined healthcare-related messages to simulate an AI assistant.
+- 💬 Clean, card-based chat layout
+- 👩‍⚕️ Simulated healthcare assistant responses (randomized from a static list)
+- 🕒 Message timestamps included
+- 🚀 Auto-scroll to latest message
+- 🧼 Send button disabled on empty input
+- 🔄 Handles input using Enter key or button click
+- 🎯 Built with reusable Shadcn UI components
+- 🛡️ Healthcare-themed visual design
+
+---
+
+
