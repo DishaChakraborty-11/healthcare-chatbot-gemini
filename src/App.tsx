@@ -2,17 +2,22 @@ import React from "react"
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-white">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-white">
+      {/* ✅ LOGO IMAGE */}
       <img
-        src="/healthcare.JPG"
+        src="/healthcare.jpg"
         alt="Pharma Chat Logo"
-        className="h-20 w-auto mb-4"
+        className="h-24 w-auto mb-4"
       />
+
+      {/* ✅ TITLE */}
       <h1 className="text-2xl font-bold text-center text-gray-800">
         Pharma Chat
       </h1>
+
+      {/* ✅ SUBTITLE */}
       <p className="text-md text-gray-500 text-center">
-        Consultation Assistant
+        Your Healthcare Consultation Assistant
       </p>
     </div>
   )
