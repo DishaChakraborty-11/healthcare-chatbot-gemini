@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-white">
       <img
-        src="/healthcare.jpg"
+        src="/healthcare.JPG"
         alt="Pharma Chat Logo"
         className="h-20 w-auto mb-4"
       />
